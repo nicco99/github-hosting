@@ -14,7 +14,7 @@ const div = document.querySelector("#days");
 
 function printName() {
 const p = document.createElement("p");
-p.innerText = "i love you Harry ❤️";
+p.innerText = "some test;
 const div = document.getElementById("days")
 div.appendChild(p)
     printName();
