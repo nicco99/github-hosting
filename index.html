@@ -5,24 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>LogIn || SignUp</title>
+    <title>Nicco | Portifolio</title>
 </head>
-<body style="background-color: #16213E; color: #ffff;"> 
-    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: #16003B;">
-        <a style="color: #ffff;" class="navbar-brand" href="#">Nicco</a>
+<body class="bg-dark"> 
+    <nav class="navbar bg-transparent navbar-expand-lg navbar-light p-3" >
+        <a class="navbar-brand text-white" href="#">Nicco</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li><button type="button" class="nav-item btn btn-outline-primary">Github</button></li>
-                <li><button type="button" class="nav-item btn btn-outline-primary">About</button></li>
-            </ul>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-3" >
-                    <button type="button" class="btn-lg btn btn-outline-primary" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
-                </li>
-            </ul>
+            <ul class="navbar-nav justify-content-around">
+                <li><button type="button" class="nav-item btn btn-outline-warning">Github</button></li>
+                <li><button type="button" target="about" class="nav-item btn btn-outline-warning">About</button></li>
+                <li><button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter">Contact</button></li>           
+              </ul>
         </div>
     </nav>
 
@@ -31,22 +27,22 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content bg-transparent">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Contact Me<i class="bi bi-box-arrow-in-right"></i></h5>
+          <h5 class="modal-title text-danger" id="exampleModalLongTitle">Contact Me<i class="bi bi-box-arrow-in-right"></i></h5>
         </div>
         <div class="modal-body">
             <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                  <label class="text-danger" for="exampleInputEmail1">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                   
                 </div>
                 <div class="form-group">
-                    <label for="name">Full Names</label>
+                    <label class="text-danger" for="name">Full Names</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter full names">
                     
                   </div>
                   <div class="form-group">
-                    <label for="subject">Subject:</label>
+                    <label class="text-danger" for="subject">Subject:</label>
                     <input type="text" class="form-control" id="subject"  placeholder="Subject">
                     
                   </div>
@@ -54,7 +50,7 @@
                   <textarea name="message" id="message" cols="40" rows="5"></textarea>
                
                 <br>
-                <button type="submit" class="btn btn-primary">send</button>
+                <button type="submit" class="btn btn-outline-warning">send</button>
               </form>
         </div>
         <div class="modal-footer">
@@ -65,11 +61,12 @@
   </div>
 
   <!-- section -->
-  <section class="container-fluid justify-content-center d-flex flex-wrap" style="background-color: #16213E;">
-<div class=" card bg-light justify-content-center bg-transparent col-lg-6 col-md-10 col-sm-10" id="brief" style="align-items: center; margin: 10px 10px; border: none;">
+  <section class="container-fluid bg-transparent justify-content-center d-flex flex-wrap" >
+<div class="card justify-content-center bg-transparent text-white col-lg-6 col-md-10 col-sm-10" id="brief" style="align-items: center; margin: 10px 10px; border: none;">
     <h4>FULL-STACK WEB DEVELOPER</h4>
     <h5>Majoring in :<small>Javascript</small></h5>
     <p>React | Ruby | SQL</p>
+    <button class="btn btn-outline-warning">Hire|Me</button>
 
 </div>
 <div class="card col-lg-5 bg-transparent col-md-10 col-sm-10" style="border: none;" id="image">
@@ -79,35 +76,61 @@
 
   </section>
   <hr/>
-  <main class="card bg-primary">
-    <h3 class="justify-content-center" style="text-align: center;"><span style="border-bottom: 2px solid white ;" >About me</span></h3>
+  <main id="about" class="card bg-transparent" style="text-align: center;" style="border: none;">
+    <h3 class="justify-content-center " style="text-align: center;"><span class="text-white" style="border-bottom: 2px solid white ;" ><i>ABOUT ME</i></span></h3>
     <p class="card-text" style="text-align: center;">I'm Nicholas Njeru a Full-Stack Web Developer passionate and hardworking person. I deliver projects in time and in completion</p>
+    <h4 class="text-danger">EDUCATION:</h4>
+    <p><strong class="text-warning">University: </strong> <span class="text-white">South Eastern Kenya University (S.E.K.U)</span></p>
+    <p><strong class="text-warning">Secondary: </strong> <span class="text-white">Kamuiru Boys High</span></p>
+    <p><strong class="text-warning">Primary: </strong> <span class="text-white">ARCH-Bishop Gitari</span></p>
+    <p><strong class="text-warning">Other institution: </strong> <span class="text-white">Moringa school</span></p>
+    <h4 class="text-danger">Sample Projects Completed:</h4>
+    <!-- project 1 -->
+    <div class="p-5 justify-content-evenly d-flex flex-wrap">
+      <div class="card bg-transparent col-lg-5" style="border: none;">
+        <img class="card-img-top" src="./Screenshot from 2022-09-06 14-54-30.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text text-white">This is a complete portifolio for a certain organisation by the name Smart Support Engineering</p>
+          <a href="http://smart-support.herokuapp.com/" class="btn btn-outline-danger">Browse project</a>
+        </div>
+      </div>
+      <!-- second project -->
+      <div class="card col-lg-5 bg-transparent" style="border: none;">
+        <img class="card-img-top" src="./Screenshot from 2022-09-06 15-10-57.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text text-white">This a Javascript game by the name checkers. It allows two players to play a game between each other </p>
+          <a href="https://kifaru-checker.herokuapp.com/" class="btn btn-outline-danger">Browse Project</a>
+        </div>
+      </div>
+
+    </div>
+
   </main>
  <hr>
- <main class="card bg-danger b-3 justify-content-center" style="align-items: center;">
-  <h3 class="justify-content-center" style="text-align: center;"><span style="border-bottom: 2px solid white ;" >Skills</span></h3>
+ <main class="card bg-transparent justify-content-center" style="align-items: center; border: none;">
+  <h3 class="justify-content-center" style="text-align: center;"><span class="text-white" style="border-bottom: 2px solid white ;" >Skills</span></h3>
   <div class="col-lg-8 ">
-    <h3>SQL</h3>
+    <h3 class="text-white">SQL</h3>
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
   <br>
   <br>
-  <h3>React</h3>
+  <h3 class="text-white">React</h3>
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
   <br>
   <br>
-  <h3>Ruby</h3>
+  <h3 class="text-white">Ruby</h3>
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
   <br>
   <br>
-  <h3>HTML | CSS | BOOTSTRAP</h3>
+  <h3 class="text-white">HTML | CSS | BOOTSTRAP</h3>
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
 </div>
 <br>
@@ -116,9 +139,9 @@
 <div class="card text-center bg-dark">
   
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+  <a href="https://api.whatsapp.com/send?phone=0726555838"><img src="./whatsapp.svg" alt="whatsapp" height="50px"></a>
+   <a href="https://github.com/nicco99"><img src="./github.svg" alt="github" height="50px"></a>
+   <a href="https://www.linkedin.com/in/nicholas-njeru-9747a222a/"><img src="./linkedin.svg" alt="linked-in" height="50px"></a>
   </div>
   <div class="card-footer text-muted">
     Nicholas Njeru
