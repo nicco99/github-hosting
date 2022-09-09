@@ -25,33 +25,32 @@
     <!-- Modal -->
 <div class="modal  fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content
-">
+      <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title text-danger" id="exampleModalLongTitle">Contact Me<i class="bi bi-box-arrow-in-right"></i></h5>
         </div>
         <div class="modal-body">
-            <form>
+            <form id="form">
                 <div class="form-group">
                   <label class="text-danger" for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                   
                 </div>
                 <div class="form-group">
                     <label class="text-danger" for="name">Full Names</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter full names">
+                    <input type="text" class="form-control" id="from_name" placeholder="Enter full names">
                     
                   </div>
                   <div class="form-group">
                     <label class="text-danger" for="subject">Subject:</label>
-                    <input type="text" class="form-control" id="subject"  placeholder="Subject">
+                    <input type="text" class="form-control" id="email_id"  placeholder="Subject">
                     
                   </div>
                   <br>
                   <textarea name="message" id="message" cols="40" rows="5"></textarea>
                
                 <br>
-                <button type="submit" class="btn btn-outline-warning">send</button>
+                <button id="btn" type="submit" class="btn btn-outline-warning">send</button>
               </form>
         </div>
         <div class="modal-footer">
@@ -140,15 +139,14 @@
 <div class="card text-center bg-dark">
   
   <div class="card-body">
-  <a href="https://api.whatsapp.com/send?phone=+254726555838"><img src="./whatsapp.svg" alt="whatsapp" height="50px"></a>
-   <a href="https://github.com/nicco99"><img src="./github.svg" alt="github" height="50px"></a>
-   <a href="https://www.linkedin.com/in/nicholas-njeru-9747a222a/"><img src="./linkedin.svg" alt="linked-in" height="50px"></a>
+  <a href="https://api.whatsapp.com/send?phone=+254726555838"><img src="./whatsapp.png" alt="whatsapp" height="50px"></a>
+   <a href="https://github.com/nicco99"><img src="./github.png" alt="github" height="50px"></a>
+   <a href="https://www.linkedin.com/in/nicholas-njeru-9747a222a/"><img src="./linkedin.png" alt="linked-in" height="50px"></a>
   </div>
-  <div class="card-footer text-muted">
+  <div class="card-footer text-white">
     Nicholas Njeru
   </div>
 </div>
-<a href="#top"><i class="fas fa-long-arrow-alt-up"></i></a>
 
 <script src="./index.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
