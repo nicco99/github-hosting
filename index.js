@@ -1,7 +1,7 @@
+ document.addEventListener("DOMContentLoaded", animation)
  function animation(){
-    setTimeout(()=>{
         return document.getElementById("loader").remove()
-          },2000)
+        
         
 }
 
