@@ -1,6 +1,6 @@
  document.addEventListener("DOMContentLoaded", animation)
  function animation(){
-        return document.getElementById("loader").remove()
+        return document.getElementById("loader").style.display = "none"
         
         
 }
