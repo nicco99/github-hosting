@@ -7,11 +7,7 @@ Ruby: I have experience building web applications using Ruby, specifically with 
  JavaScript: I am proficient in JavaScript and have experience building web applications using various JavaScript libraries and frameworks, such as React. I also have experience working with Node.js and building server-side applications.
 <div><img src="https://cdn3.vectorstock.com/i/1000x1000/78/57/react-icon-in-a-hexagon-vector-36587857.jpg" height="70px" width="70px"/></div>
  React: I have experience building web applications using the React JavaScript library. I am familiar with React's component-based architecture, as well as its state management and lifecycle methods. I also have experience working with other libraries commonly used with React, such as Redux and GraphQL.
-<div><img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-1.svg" height="70px" width="70px"/></div>
- Tailwind CSS: I have experience using the Tailwind CSS utility framework to build responsive and maintainable CSS for web applications. I am familiar with the framework's conventions and best practices for organizing and structuring CSS.
-
-Ruby on Rails: I have experience building web applications using the Ruby on Rails framework. I have a strong understanding of Rails' MVC architecture, as well as its conventions for routing, controllers, and models. I also have experience working with other libraries commonly used with Rails, such as ActiveRecord and ActionCable.
-Education
+ 
 I have a Bachelor's degree in Computer Science from South Eastern Kenya University.
 I have a certification in Software Engineering from Moringa School.
 
