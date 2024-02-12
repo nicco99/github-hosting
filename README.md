@@ -1,6 +1,6 @@
 <div><h1 style="font-size: 100px;">Nicholas Njeru (Software Engineer)</h1>
-<div style="display: flex; flex-direction: row; gap: 20px; padding: 10px; justify-content: center; align-items: center;">
- <a href="">LinkedIn</a>
+<div style="display: flex; flex-direction: row; gap: 20px; padding: 10px; justify-content: center; align-items: center; width: 100%">
+ <a style="text-decoration: none" href="">LinkedIn</a>
  <a href="">Email</a>
  <a href="">Phone call</a>
  <a href="">Whatapp</a>
