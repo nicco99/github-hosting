@@ -1,4 +1,11 @@
-<h1 style="font-size: 100px;">Nicholas Njeru (Software Engineer)</h1>
+<div><h1 style="font-size: 100px;">Nicholas Njeru (Software Engineer)</h1>
+<div style="display: flex; flex-direction: row; gap: 15px">
+ <a href="">LinkedIn</a>
+ <a href="">Email</a>
+ <a href="">Phone call</a>
+ <a href="">Whatapp</a>
+</div>
+</div>
 <p style="">I'm a seasoned software engineer with 3+ years of experience in developing web applications, APIs, and dynamic user interfaces. My journey in software development began with a fascination for creating seamless user experiences, which has driven me to continually explore and master new technologies.</p>
 <h1 style="font-size: 100px;">Tech Stack: </h1>
 <div>
