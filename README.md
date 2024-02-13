@@ -28,6 +28,7 @@ I have a certification in Software Engineering from Moringa School.</p>
 <p>Please feel free to contact me if you have any questions or if you are interested in working together.</p>
 
 <p>Thank you for visiting my GitHub profile!</p>
+[![](https://visitcount.itsvg.in/api?id=nicco99&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
 <a href="https://visitcount.itsvg.in">
   <img src="https://visitcount.itsvg.in/api?id=nicco99&label=Profile%20Views&pretty=false" />
 </a>
