@@ -6,7 +6,7 @@
  <a href="">Whatapp</a>
 </div>
 </div>
-<p style="">I'm a seasoned software engineer with 3+ years of experience in developing web applications, APIs, and dynamic user interfaces. My journey in software development began with a fascination for creating seamless user experiences, which has driven me to continually explore and master new technologies.</p>
+<p >I'm a seasoned software engineer with 3+ years of experience in developing web applications, APIs, and dynamic user interfaces. My journey in software development began with a fascination for creating seamless user experiences, which has driven me to continually explore and master new technologies.</p>
 <h1 style="font-size: 100px;">Tech Stack: </h1>
 <div>
  <ul>
@@ -28,7 +28,6 @@ I have a certification in Software Engineering from Moringa School.</p>
 <p>Please feel free to contact me if you have any questions or if you are interested in working together.</p>
 
 <p>Thank you for visiting my GitHub profile!</p>
-[![](https://visitcount.itsvg.in/api?id=nicco99&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
 <a href="https://visitcount.itsvg.in">
   <img src="https://visitcount.itsvg.in/api?id=nicco99&label=Profile%20Views&pretty=false" />
 </a>
