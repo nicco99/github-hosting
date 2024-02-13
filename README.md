@@ -21,10 +21,13 @@
   <li>Tailwind css</li>
 <li>Material-UI</li>
  </ul>
-</div>
+</div><p>
 I have a Bachelor's degree in Computer Science from South Eastern Kenya University.
-I have a certification in Software Engineering from Moringa School.
+I have a certification in Software Engineering from Moringa School.</p>
 
-Please feel free to contact me if you have any questions or if you are interested in working together.
+<p>Please feel free to contact me if you have any questions or if you are interested in working together.</p>
 
-Thank you for visiting my GitHub profile!
+<p>Thank you for visiting my GitHub profile!</p>
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=nicco99&label=Profile%20Views&pretty=false" />
+</a>
